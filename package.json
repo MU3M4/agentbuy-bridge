@@ -1,0 +1,23 @@
+{
+  "name": "nanopayments-with-usdc",
+  "type": "module",
+  "scripts": {
+    "server": "tsx --env-file=.env server/index.ts",
+    "client": "tsx --env-file=.env client/pay.ts",
+    "deposit": "tsx --env-file=.env client/deposit.ts",
+    "balance": "tsx --env-file=.env client/check-balance.ts",
+    "ui": "cd ui && npm run dev"
+  },
+  "dependencies": {
+    "@circle-fin/x402-batching": "latest",
+    "@x402/evm": "latest",
+    "express": "^5.1.0",
+    "openai": "^4.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
