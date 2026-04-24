@@ -13,4 +13,3 @@ Demo Features:
 How it works:
 Users pay $0.005 USDC → get instant supplier data (no high fees, no gas).
 
-Video Demo: Live Demo: (you can deploy it later)
