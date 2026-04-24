@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@circle-fin/x402-batching": "latest",
+    "@google/generative-ai": "^0.24.1",
     "@x402/evm": "latest",
     "express": "^5.1.0",
     "openai": "^4.0.0",
